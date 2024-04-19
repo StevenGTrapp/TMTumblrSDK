@@ -4,8 +4,8 @@
 //
 //  Created by Kenny Ackerson on 11/14/16.
 //  Copyright © 2016 tumblr. All rights reserved.
+//  Created by Steven G. Trapp on 10/10/24.
 //
-
 import Cocoa
 import TMTumblrSDK
 

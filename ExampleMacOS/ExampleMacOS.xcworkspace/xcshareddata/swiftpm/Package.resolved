@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "flurryswiftpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/flurry/FlurrySwiftPackage.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "99d2ec6e6a4c1642b6ff4db53a5999b1425acabc"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-mobile-ads",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ee80d8b9fb9c110c35ff0af56cfc672eee4b515e"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-user-messaging-platform",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git",
+      "state" : {
+        "revision" : "459949af1286c12487a6efd76f00f3e9d951c9ba",
+        "version" : "2.5.0"
+      }
+    }
+  ],
+  "version" : 2
+}

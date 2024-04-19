@@ -2,9 +2,27 @@ use_frameworks!
 
 target 'ExampleiOS' do
 	pod 'TMTumblrSDK', :path => '../'
+    
+end
+
+target 'ExampleiOS' do
+    pod 'Flurry-iOS-SDK/FlurrySDK', :path => '../'
+    pod 'Flurry-iOS-SDK/FlurryAds", :path => '../'
+    pod 'Flurry-iOS-SDK/FlurryConfig", :path => '../'
+    
+end
+
+ target 'ExampleiOS' do
+    pod 'Google-Mobile-Ads-SDK',  :path => '../'
+
 end
 
 target 'ExampleiOSTests' do
 	pod 'TMTumblrSDK', :path => '../'
+    pod 'Flurry-iOS-SDK/FlurrySDK',     :path => '../'
+    pod 'Flurry-iOS-SDK/FlurryAds",     :path => '../'
+    pod 'Flurry-iOS-SDK/FlurryConfig",  :path => '../'
+    pod 'Google-Mobile-Ads-SDK',  :path => '../'
+
 end
 

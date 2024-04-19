@@ -4,6 +4,8 @@
 //
 //  Created by Kenny Ackerson on 1/6/16.
 //  Copyright © 2016 tumblr. All rights reserved.
+//  Created by Steven G. Trapp on 10/10/24.
+//  Copyright @ 2024. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -24,8 +26,9 @@
  If you don't already have a consumer key/secret you can
  register at http://www.tumblr.com/oauth/apps
  */
-NSString * const OAuthTokenConsumerKey = @"";
-NSString * const ConsumerSecret = @"";
+NSString * const OAuthTokenConsumerKey = @"W5mnE5sLpOKtQ4oMnp4SaXKtlACTTRviDvDpXxVngdyNjtrqSR";
+NSString * const ConsumerSecret = @"SrlnLVk0c4bZDuLeYndVXHhrQyBQgVz4NaYrZvplje96n6gTIA";
+```";
 
 @implementation AppDelegate
 
