@@ -1,15 +1,32 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+{
+  "name": "TMTumblrSDK",
+  "version": "6.1.4",
+  "summary": "An unopinionated and flexible library for easily integrating Tumblr data into your iOS or OS X application.",
+  "homepage": "https://github.com/StevenGTrapp/TMTumblrSDK.git",
+  "source": {
+    "git": "https://github.com/StevenGTrapp/TMTumblrSDK.git",
+    "tag": "6.1.4"
+  },
+  "license": {
+    "type": "Apache 2.0",
+    "file": "LICENSE"
+  },
+  "authors" : {
+    "Kenny Ackerson": "kenny@tumblr.com"
+    "Steven G Trapp": "steven@google.com"
+  },
+  "platforms": {
+    "ios": "10.0",
+    "osx": "10.12"
+  },
+  "requires_arc": true,
+  "frameworks": [
+    "Foundation"
+  ],
+  "source_files": "Classes/**/*.{h,m}",
+  "dependencies": {
+  }
 
-target 'ExampleMacOS' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+}
 
-	pod 'TMTumblrSDK', :path => '../'
 
-  target 'ExampleMacOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-end
