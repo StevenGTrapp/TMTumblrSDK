@@ -85,8 +85,8 @@ In your `AppDelegate`,  import `<TMTumblrSDK/TMOAuthAuthenticator.h>`, `<TMTumbl
 Declare constants for your app’s Tumblr consumer key and secret:
 
 ``` objectivec
-NSString * const OAuthTokenConsumerKey = @"";
-NSString * const ConsumerSecret = @"";
+NSString * const OAuthTokenConsumerKey = @"W5mnE5sLpOKtQ4oMnp4SaXKtlACTTRviDvDpXxVngdyNjtrqSR";
+NSString * const ConsumerSecret = @"SrlnLVk0c4bZDuLeYndVXHhrQyBQgVz4NaYrZvplje96n6gTIA";
 ```
 
 If you don't already have a consumer key/secret you can
